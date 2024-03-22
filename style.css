@@ -1,0 +1,348 @@
+.navBar> a {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: rgb(240, 237, 212);
+}
+body{ 
+    background-color: #f0edd4;
+}
+#landing{
+    width: 100%;
+    height: 100vh;
+    background: url(./assests/flowerback.jpeg);
+    background-size: cover;
+    position: static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+    display: grid;
+    grid-template-rows: 10% 5% 85%;
+    grid-template-columns: 1fr 1fr;
+}
+.navBar{
+    grid-area: 2;
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #85616169;
+}
+.mainName{
+    grid-area: 1;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.2rem;
+    background-color: #85616169;
+    color: #f0edd4;
+}
+.titleLanding{
+    grid-area: 3 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 145px;
+    color: #161616;
+    background-color: #85616169;
+    border-radius: 6px;
+    color: #f0edd4;
+}
+.logoHere{
+    background-color: #85616169;
+    border-radius: 6px;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.hoursFloat{
+    background-color: rgb(241, 184, 184) ;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr;
+    height: 85vh;
+}
+.hours{
+    grid-area: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: #f0edd4;
+    min-width: 340px;
+}
+.hours > p {
+    margin: 7px;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 3.0rem;
+}
+.hours > ul{
+    margin: 7px;
+    font-size: 2rem
+}
+html{
+    scroll-behavior: smooth;
+}
+.BiscuitBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.Biscuit{
+    display: flex;
+    flex-flow: wrap;
+    height:75%;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+}
+.map{
+    display: grid;
+    grid-template-columns: 5% 70% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    height: 85vh;
+    align-items: center;
+}
+#mapFlex{
+    grid-area: 1 / 2 ;
+    grid-row: span 3;
+    height: 60vh;
+    width: 100%;
+}
+#contact{
+    grid-area: 1/3;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    color: #8b2929;
+}
+#contact > p {
+    margin: 7px;
+}
+#contact > a {
+    color: #8b2929;
+}
+.listContact{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.address{
+    grid-area: 3/3;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #8b2929;
+    font-size: 1.7rem;
+}
+.address > p {
+    margin: 7px;
+}
+.addressText{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.addressLogo{
+     display: flex;
+     grid-area: 2 / 3;
+     justify-content: center;
+}
+.mainLogo{
+    height: 100%;
+    width: 100%;
+    grid-area: 3;
+    background-color: #85616169;
+    border-radius: 6px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.logoRose{
+    height: 70%;
+    width: 70%;
+}
+.servicesFloat{
+    height: 110vh;
+    background-color:#f1b8b8;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0px;
+}
+#services{
+    grid-area: 1;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #f0edd4;
+    font-size: 3rem;
+}
+#services > p.servicesP{
+    margin: 7px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+#services > p.taxInfo{
+    margin: 0px;
+    font-size: 1.3rem;
+    font-style: italic;
+}
+#services > ul{
+    font-size: 1.5rem;
+    margin: 7px;
+}
+#services > ul:nth-child(3) {
+    margin-top: 40px;
+}
+#services > p.Extras{
+    margin: 7px;
+    margin-top: 50px;
+    font-weight: 900;
+    text-decoration: underline;
+}
+#services > ul:nth-child(12){
+    margin-top: 40px;
+}
+.imageToFill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap;
+}
+.backside{
+    display: flex;
+    flex-flow: wrap;
+    height:100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #8b2929;
+    color: rgb(240, 237, 212);
+}
+.footer > a{
+    color:rgb(240, 237, 212);
+    align-self: center;
+}
+ @media (max-width:1024px)  {
+    #hours > p {
+        font-size: 2.0rem;
+    }
+    #hours > ul {
+        font-size: 1.5rem;
+    }
+    body > div.servicesFloat {
+        height: 205vh;
+    }
+    body > div.servicesFloat {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    body > div.servicesFloat > div.imageToFill > img {
+        border-radius: 50px 50px 0px 0px;
+        max-width: 100%;
+    
+    }
+    #services > ul:nth-child(20) {
+        margin-bottom: 20px;
+    }
+    }
+@media (max-width:768px) {
+    body > div.hoursFloat {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+    }
+    .Biscuit {
+        height: 72%;
+        width: 80%;
+    }
+    #hours > p {
+        margin-top: 30px;
+    }
+}
+@media (max-width:550px) {
+    #landing {
+        grid-template-columns: 1fr;
+    }
+    #landing > div.titleLanding > p {
+        display: none;
+    }
+    #landing > img {
+        grid-area: 3/1;
+    }
+    .map{
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: 1fr;
+        height: 100vh;
+    }
+    #contact{
+        grid-area: 1;
+    }
+    body > div.map > div.addressLogo > img{
+        display: none;
+    }
+    body > div.map > div.address {
+        grid-area: 3;
+    }
+    #mapFlex{
+        grid-area: 2;
+    }
+    body > div.footer {
+        font-size: .8rem;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    body > div.servicesFloat > div.imageToFill {
+        display: none;
+    }
+    body > div.servicesFloat{
+        height: 150vh;
+        grid-template-rows: 1fr;
+    }
+    #services > ul {
+        font-size: 1.2rem;
+    }
+    
+
+}
+@media (max-width:385px) {
+    #landing > div.mainName > p {
+        font-size: 2.5rem ;
+    }
+    .navBar> a {
+        text-decoration: none;
+        font-size: 1rem;
+    }
+}
+@media(max-width:354px) {
+    #landing > div.mainName > p {
+        font-size: 2.5rem;
+    }
+    #hours > ul {
+        font-size: 1.2rem;
+    }
+}
